@@ -21,7 +21,7 @@ def find_the_cheese(array)
   
   yes = array.any? { |i| cheese_types.include?(i) }
   if yes
-    return "cheddar"
+    return "gouda"
   end
   
   puts nil if array.any? { |i| not cheese_types.include?(i) }
